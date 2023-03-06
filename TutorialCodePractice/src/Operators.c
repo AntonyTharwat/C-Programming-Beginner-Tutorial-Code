@@ -34,11 +34,12 @@ int mult (int x, int y){
 	return x*y;
 }
 
-int divide(int x, int y) {
-    return x / y;
+double divide(int x, int y) {
+    double result = x/y;
+	return result;
 }
 
-int main(void) {
+main(void) {
 
 	int x , y , z;
 	printf("1: Addition \n");
@@ -73,7 +74,7 @@ int main(void) {
 		printf("please enter two numbers: ");
 		fflush(stdout);
 		scanf("%d %d", &x, &y);
-		printf ("Division of two numbers are: %d \n", divide(x,y));
+		printf ("Division of two numbers are: %.2lf \n", divide(x,y));
 	}else
 	{
 		printf("Invalid Operation, please try again");
