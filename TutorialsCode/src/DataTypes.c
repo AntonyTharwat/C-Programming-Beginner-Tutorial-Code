@@ -6,7 +6,7 @@
  */
 
 # include <stdio.h>
-
+/*
 void main() {
 
 	double no = 17.5; //double data
@@ -28,3 +28,4 @@ void main() {
 	printf("size of character = %d", sizeof(character));
 	return 0;
 }
+*/
