@@ -4,9 +4,9 @@
  *  Created on: Mar 5, 2023
  *      Author: MBR
  */
-
-# include <stdio.h>
 /*
+# include <stdio.h>
+
 void main() {
 
 	double no = 17.5; //double data
