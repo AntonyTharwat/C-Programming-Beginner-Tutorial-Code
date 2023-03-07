@@ -31,7 +31,11 @@ int main(){
 
 	bool result = (age > 9) && (height <= 10);
 
-	printf ("%d", result);
+	bool result1 = !(age <9);
+
+	printf ("%d\n", result);
+
+	printf("%d\n", result1);
 
 	return 0;
 }
