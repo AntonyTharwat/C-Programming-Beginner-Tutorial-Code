@@ -4,15 +4,16 @@
 
 int main(){
 
-	int x,y;
+	int x;
 
-	scanf("%d %d", &x,&y);
-	if(x > y){
-		printf("First number is greater than second number \n");
-	}else if (x < y){
-		printf("First number is less than second number \n");
+	scanf("%d", &x);
+
+	if(x > 0){
+		printf("The number is positive \n");
+	}else if (x < 0){
+		printf("THe number is negative \n");
 	}else{
-		printf("Both Numbers are equal \n");
+		printf("Equal Zero 0 \n");
 	}
 	return 0;
 }
